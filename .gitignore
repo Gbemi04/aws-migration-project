@@ -1,0 +1,16 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+terraform.tfvars
+
+# VS Code
+.vscode/
+
+# Operating system
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Medium screenshots
+screenshots/
