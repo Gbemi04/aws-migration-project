@@ -25,7 +25,7 @@ resource "aws_db_instance" "main" {
   engine_version    = "8.0"
   instance_class    = "db.t3.micro"
 
-  db_name  = "wordpress"
+ db_name = "gbemiwordpress"
   username = var.db_username
   password = var.db_password
 
